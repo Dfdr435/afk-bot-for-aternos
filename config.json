@@ -1,18 +1,1 @@
-{
-  "ip": "dragonstill.aternos.me",
-  "port": 25565,
-  "name": "vortex",
-  "password": "husu20009",
-  "auth": "mojang",
-  "registerCommand": "/register {user} {pass}",
-  "loginCommand": "/login {pass}",
-  "loginDelayMs": 1500,
-  "registerToLoginDelayMs": 2000,
-  "moveInterval": 2,
-  "maxRandom": 5,
-  "baseReconnectMs": 5000,
-  "maxReconnectMs": 60000,
-  "reconnectJitterMs": 1000,
-  "keepAlivePort": 2323,
-  "altUsernames": ["vortex_1","vortex_2"]
-}
+{\n  "ip": "dragonstill.aternos.me",\n  "port": 20979,\n  "name": "vortex",\n  "password": "husu20009",\n  "auth": "mojang",\n  "registerCommand": "/register {user} {pass}",\n  "loginCommand": "/login {pass}",\n  "loginDelayMs": 1500,\n  "registerToLoginDelayMs": 2000,\n  "moveInterval": 2,\n  "maxRandom": 5,\n  "baseReconnectMs": 5000,\n  "maxReconnectMs": 60000,\n  "reconnectJitterMs": 1000,\n  "keepAlivePort": 2323,\n  "altUsernames": ["vortex_1","vortex_2"]\n}
