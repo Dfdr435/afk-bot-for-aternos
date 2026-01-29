@@ -1,5 +1,18 @@
 {
-	"ip":"yourip.aternos.me",
-	"port": "25565",
-	"name": "afk_bot"
+  "ip": "dragonstill.aternos.me",
+  "port": 25565,
+  "name": "vortex",
+  "password": "husu20009",
+  "auth": "mojang",
+  "registerCommand": "/register {user} {pass}",
+  "loginCommand": "/login {pass}",
+  "loginDelayMs": 1500,
+  "registerToLoginDelayMs": 2000,
+  "moveInterval": 2,
+  "maxRandom": 5,
+  "baseReconnectMs": 5000,
+  "maxReconnectMs": 60000,
+  "reconnectJitterMs": 1000,
+  "keepAlivePort": 2323,
+  "altUsernames": ["vortex_1","vortex_2"]
 }

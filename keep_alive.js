@@ -1,6 +1,7 @@
 const express = require('express');
-const app = express();
-const port = 2323;
-app.get('/', (req, res) => res.send('Afk bot!'));
-
-app.listen(port, () => console.log(`Afk bot is listening to http://localhost:${port}`));
+module.exports.keep_alive = function(port = 2323) {
+  const app = express();
+  app.get('/', (req, res) => res.send('Afk bot is running'));
+  app.get('/health', (req, res) => res.json({ ok: true, timestamp: Date.now() }));
+  app.listen(port, () => console.log(`Afk bot keep-alive listening on http://localhost:${port}`));
+}
